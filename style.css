@@ -1,0 +1,9 @@
+body {
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+.border-sides {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
