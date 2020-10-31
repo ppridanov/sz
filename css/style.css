@@ -1,0 +1,108 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+main {
+    padding-top: 70px;
+}
+a {
+    color: #2556ae !important;
+}
+.border-sides {
+    border-left: 1px solid #ccccc1;
+    border-right: 1px solid  #ccccc1;
+}
+.btn-lang {
+    color: #2556ae;
+    border-color: #2556ae;
+}
+.btn-lang:hover {
+    background-color: #2556ae;
+    color: white;
+}
+.nav-link {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+}
+.slider img {
+    border-radius: 5px !important;
+}
+.owl-dots {
+    margin-top: 20px !important;
+}
+.owl-dots span {
+    border: 1px solid #2556ae;
+    background-color: #fff !important;
+}
+.owl-dot.active span {
+    background: #2556ae !important;
+}
+.card {
+    font-size: 17px;
+}
+.card-text {
+    color: #fff;
+}
+.card_bg {
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(14,31,159,1) 50%, rgba(0,212,255,1) 100%);
+}
+.lotery_image {
+    max-width: 120px;
+    max-height: 80px;
+}
+.card-summary {
+    font-size: 28px;
+}
+.card-prize {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+.hide-element {
+    display: none !important;
+}
+.btn-lang:hover {
+    color: #fff !important;
+}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+  }
+
+  @media screen and (max-width: 767px) {
+      .slider img {
+          height: 150px;
+      }
+      .lotery_image {
+          max-width: 65px;
+          max-height: 40px;
+      }
+      .card-prize {
+          font-size: 9px;
+      }
+  }
+  @media screen and (max-width: 500px) {
+      .owl-dots {
+        margin-top: 5px !important;
+      }
+      .card-summary {
+          font-size: 14px;
+      }
+      .btn-ticket {
+        font-size: 10px !important;
+        padding: 2px 8px!important;
+        margin-bottom: 15px;
+      }
+      .owl-dot span {
+        width: 8px !important;
+        height: 8px !important;
+      }
+      .card {
+          font-size: 10px;
+      }
+      .card-body {
+          padding: 1px !important;
+      }
+  }
