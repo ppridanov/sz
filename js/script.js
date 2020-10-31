@@ -38,6 +38,7 @@ $(document).ready(function () {
         items: 4,
         loop: true,
         margin: 8,
+        dots: false,
         responsive:{
             0:{
                 items:2,
