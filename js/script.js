@@ -40,19 +40,23 @@ $(document).ready(function () {
         margin: 8,
         responsive:{
             0:{
-                items:2
+                items:2,
+                margin: 8,
             },
             500: {
                 items:3,
-                loop: false
+                loop: false,
+                margin: 15,
             },
             1000: {
                 items:3,
-                loop: false
+                loop: false,
+                margin: 20,
             },
             1200: {
                 items:4,
-                loop: false
+                loop: false,
+                margin: 24,
             }
         }
     });
