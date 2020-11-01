@@ -28,6 +28,11 @@ a {
     background-color: #2556ae;
     color: white;
 }
+.nav-item {
+    padding-right: 0px;
+    padding-left: 7px;
+    font-size: 17px !important;
+}
 .nav-link {
     text-decoration: underline;
     font-size: 16px;
@@ -46,10 +51,16 @@ a {
 .owl-dot.active span {
     background: #2556ae !important;
 }
+.loterry-title {
+    font-size: 26px;
+}
+.card-deck {
+    margin: 20px auto;
+}
 .card {
     font-size: 17px;
     margin: 0 !important;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .card-text {
     color: #fff;
@@ -57,6 +68,9 @@ a {
 .card_bg {
     background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(14,31,159,1) 50%, rgba(0,212,255,1) 100%);
+}
+.card-body {
+    padding: 18px 28.2px !important;
 }
 .lotery_image {
     max-width: 120px;
@@ -86,6 +100,15 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(14,31,159,1) 50%, rg
     font-size: calc(100% + 1vw + 1vh);
   }
 
+  @media screen and (max-width: 991px) {
+      .magicwood-icon {
+          display: none;
+      }
+      .login-icon {
+          display: none;
+      }
+  }
+
   @media screen and (max-width: 767px) {
       .slider img {
           height: 150px;
@@ -99,7 +122,11 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(14,31,159,1) 50%, rg
           margin: 10px 0 0;
       }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 468px) {
+      .container {
+          padding-right: 10px !important;
+          padding-left: 10px !important;
+      }
       .owl-dots {
         margin-top: 5px !important;
       }
@@ -109,16 +136,33 @@ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(14,31,159,1) 50%, rg
       .btn-ticket {
         font-size: 10px !important;
         padding: 2px 8px!important;
-        margin-bottom: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
       }
       .owl-dot span {
         width: 8px !important;
         height: 8px !important;
       }
+      .card-deck {
+          margin: 23px auto;
+      }
       .card {
           font-size: 10px;
       }
       .card-body {
-          padding: 1px !important;
+          padding: 6px 10px !important;
       }
+      .carousel {
+          margin-top: 17px;
+      }
+      .navbar-brand {
+          margin-left: 25px;
+      }
+      .loterry-title {
+          font-size: 20px;
+      }
+      .btn-lang:hover {
+        color: #2556ae !important;
+        background-color: inherit;
+    }
   }

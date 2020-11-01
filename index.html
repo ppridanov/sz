@@ -27,22 +27,21 @@
 
                 <a class="navbar-brand js-scroll-trigger" href="#"><img src="./images/logo.png" width="113" height="55"
                         class="d-inline-block align-top" alt="logo"></a>
-                <div class="col-xs mobile-menu hide-element">
-                    <a class="btn btn-lang btn-outline-info btn-sm nav-lang" href="#">Қазақша</a>
-                    <a class="nav-login ml-3" href="#"><img width="25px" class="mr-2" src="./images/login.svg"
-                            alt="Login"></a>
-                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="d-flex nav-item nav-play-game">
-                            <a class="nav-link text-decoration-underline" href="#"><img width="15px" class="mr-1"
+                            <a class="nav-link text-decoration-underline" href="#"><img class="magicwood-icon" width="20px" class="mr-1"
                                     src="./images/stick.svg" alt="Magic stick">Играть в лотерею</a>
                         </li>
-                        <li class="d-flex pl-3 pr-3 nav-item border-sides align-items-center">
+                        <li class="d-flex pl-3 nav-lang pr-3 nav-item border-sides align-items-center">
                             <a class="btn btn-lang btn-outline-info btn-sm" href="#">Қазақша</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img width="25px" class="mr-2" src="./images/login.svg"
+                            <a class="nav-link" href="#"><img class="login-icon" width="27px" class="mr-2" src="./images/login.svg"
                                     alt="Login"><span class="nav-username">Владимир Булавин</span></a>
                         </li>
                         <li class="nav-item">
@@ -66,8 +65,21 @@
             <section class="carousel">
                 <div class="container">
                     <div class="owl-carousel owl-theme slider">
-                        <div><a href="#"><img class="d-block w-100" src="./images/баннер.jpg" alt="image"></a></div>
-                        <div><a href="#"><img class="d-block w-100" src="./images/баннер — копия.jpg" alt="image"></a>
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <source media="(max-width: 500px)" srcset="./images/mobile-baner-original.jpg">
+                                    <img src="./images/desktop-banner.jpg" alt="banner">
+                                </picture>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <picture>
+                                    <source media="(max-width: 500px)" srcset="./images/mobile-baner.jpg">
+                                    <img src="./images/desktop-banner-2.jpg" alt="banner">
+                                </picture>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +88,7 @@
             <!-- CONTENT -->
             <section class="content">
                 <div class="container">
-                    <h3 class="text-lg-center text-sm-center font-weight-bold mb-3">Хиты продаж</h3>
+                    <h3 class="loterry-title text-lg-center text-sm-center font-weight-bold mb-3">Хиты продаж</h3>
                     <div class="card-deck">
                         <div class="owl-carousel owl-theme slider-card">
                             <div class="card card_bg">
